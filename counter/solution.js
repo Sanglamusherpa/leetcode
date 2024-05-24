@@ -4,3 +4,7 @@ var createCounter = function (n){
         return (count++)
     };
 };
+const counter(10);
+counter();//11
+counter();//12
+counter();//13
